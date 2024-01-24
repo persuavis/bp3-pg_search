@@ -5,6 +5,15 @@ GIT
     bp3-core (0.1.0)
       activesupport (>= 7.1.2, < 8)
 
+GIT
+  remote: https://github.com/persuavis/bp3-string
+  revision: c169e9e57dc7048617406967e1193e02b15c6c25
+  specs:
+    bp3-string (0.1.0)
+      activerecord (~> 7.1)
+      activesupport (>= 7.1.2, < 8)
+      railties (~> 7.1)
+
 PATH
   remote: .
   specs:
@@ -169,6 +178,7 @@ PLATFORMS
 DEPENDENCIES
   bp3-core!
   bp3-pg_search!
+  bp3-string!
   byebug
   rake (~> 13.0)
   rspec (~> 3.0)

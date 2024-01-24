@@ -32,7 +32,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'activesupport', ['>= 7.1.2', '< 8']
-  # spec.add_dependency 'bp3-core', '~> 2.3' # TODO: fix
+  # spec.add_dependency 'bp3-core', '~> 2.3' # TODO: fix (remove from Gemfile)
+  # spec.add_dependency 'bp3-string', '~> 2.3' # TODO: fix (remove from Gemfile)
   spec.add_dependency 'pg_search', '~> 2.3'
   spec.add_dependency 'railties', '~> 7.1'
 

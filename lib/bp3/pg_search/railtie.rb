@@ -19,6 +19,14 @@ module Bp3
               configure_tenancy
               use_sqnr_for_ordering
 
+              def self.table_name_basis
+                table_name.gsub(/\Apublic\./, '').singularize
+              end
+
+              def controllerize
+                self.class.model_name.name.underscore.tr('/', '_').controllerize
+              end
+
               private
 
               def version_filter_mask

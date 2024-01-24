@@ -6,3 +6,4 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'bp3-core', git: 'https://github.com/persuavis/bp3-core'
+gem 'bp3-string', git: 'https://github.com/persuavis/bp3-string'
