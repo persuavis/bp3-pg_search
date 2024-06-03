@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'activesupport', ['>= 7.1.2', '< 8']
   spec.add_dependency 'bp3-core', ['>= 0.1', '< 1']
-  # spec.add_dependency 'bp3-string', '~> 2.3' # TODO: fix (remove from Gemfile)
+  spec.add_dependency 'bp3-string', ['>= 0.1', '< 1']
   spec.add_dependency 'pg_search', '~> 2.3'
   spec.add_dependency 'railties', '~> 7.1'
 
