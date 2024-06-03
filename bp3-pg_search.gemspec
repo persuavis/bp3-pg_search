@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'bp3-core', ['>= 0.1', '< 1']
   spec.add_dependency 'bp3-string', ['>= 0.1', '< 1']
   spec.add_dependency 'pg_search', '~> 2.3'
-  spec.add_dependency 'railties', '~> 7.1'
+  spec.add_dependency 'railties', ['>= 7.1.2', '< 8']
 
   spec.add_development_dependency 'byebug'
   spec.add_development_dependency 'rake', '~> 13.0'
